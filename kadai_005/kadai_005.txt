@@ -14,9 +14,9 @@ d-----        2026/06/14     14:29                git_challenge
 PS D:\プログラミング> cd git_challenge   
 PS D:\プログラミング\git_challenge> git init
 Initialized empty Git repository in D:/プログラミング/git_challenge/.git/
+PS D:\プログラミング\git_challenge> echo "Hello, world!" >> hello_world.txt
 PS D:\プログラミング\git_challenge> git add hello_world.txt  
-PS D:\プログラミング\git_challenge> echo "Hello,world" >> hello_world.txt
-PS D:\プログラミング\git_challenge> git commit -m "Hello,world.txtを追加"
+PS D:\プログラミング\git_challenge> git commit -m "Hello, world!を追加"
 [main (root-commit) 6a94bc0] Hello,world.txtを追加
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 hello_world.txt
@@ -26,6 +26,5 @@ PS D:\プログラミング\git_challenge> git commit -m "日本語訳を追記"
 [main dd831da] 日本語訳を追記
  1 file changed, 2 insertions(+)
 PS D:\プログラミング\git_challenge> git log --oneline
-0a38606 (HEAD -> main, origin/main) 最初のコミット
 dd831da 日本語訳を追記
 6a94bc0 Hello,world.txtを追加
