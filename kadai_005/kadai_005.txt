@@ -1,0 +1,25 @@
+PS D:\プログラミング> git --version
+git version 2.54.0.windows.1
+PS D:\プログラミング> mkdir git_challenge
+
+
+    ディレクトリ: D:\プログラミング
+
+
+Mode                 LastWriteTime         Length Name                                                                                                                                                                                                                                                                     
+----                 -------------         ------ ----                                                                                                                                                                                                                                                                     
+d-----        2026/06/14     14:29                git_challenge                                                                                                                                                                                                                                                            
+
+
+PS D:\プログラミング> cd git_challenge   
+PS D:\プログラミング\git_challenge> git init
+Initialized empty Git repository in D:/プログラミング/git_challenge/.git/
+PS D:\プログラミング\git_challenge> git add hello_world.txt  
+PS D:\プログラミング\git_challenge> git commit -m "Hello,world.txtを追加"
+[main (root-commit) 6a94bc0] Hello,world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS D:\プログラミング\git_challenge> git add hello_world.txt              
+PS D:\プログラミング\git_challenge> git commit -m "日本語訳を追記"
+[main dd831da] 日本語訳を追記
+ 1 file changed, 2 insertions(+)
