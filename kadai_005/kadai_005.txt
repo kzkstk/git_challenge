@@ -23,3 +23,7 @@ PS D:\プログラミング\git_challenge> git add hello_world.txt
 PS D:\プログラミング\git_challenge> git commit -m "日本語訳を追記"
 [main dd831da] 日本語訳を追記
  1 file changed, 2 insertions(+)
+PS D:\プログラミング\git_challenge> git log --oneline
+0a38606 (HEAD -> main, origin/main) 最初のコミット
+dd831da 日本語訳を追記
+6a94bc0 Hello,world.txtを追加
